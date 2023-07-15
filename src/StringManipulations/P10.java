@@ -20,7 +20,7 @@ public class P10 {
         if (uzunluk%2==0){
             System.out.println(kelime.substring(0,(uzunluk/2)) + ":)" + kelime.substring((uzunluk/2)));
         }else {
-            System.out.println(kelime.substring(0,(uzunluk/2)) + ":)" + kelime.substring(((uzunluk/2)+1)));
+            System.out.println(kelime.substring(0,(uzunluk/2)) + ":(" + kelime.substring(((uzunluk/2)+1)));
         }
 
     }
