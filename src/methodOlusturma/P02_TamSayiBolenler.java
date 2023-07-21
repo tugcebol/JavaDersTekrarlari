@@ -1,4 +1,4 @@
-package MethodOlusturma;
+package methodOlusturma;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package StringManipulations;
+package stringManipulations;
 
 public class P04_indexOf {
 

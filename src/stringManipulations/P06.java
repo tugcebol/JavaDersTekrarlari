@@ -1,4 +1,4 @@
-package StringManipulations;
+package stringManipulations;
 
 import java.text.DecimalFormat;
 

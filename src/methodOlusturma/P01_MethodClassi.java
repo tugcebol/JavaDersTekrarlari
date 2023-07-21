@@ -1,4 +1,4 @@
-package MethodOlusturma;
+package methodOlusturma;
 
 public class P01_MethodClassi {
 
