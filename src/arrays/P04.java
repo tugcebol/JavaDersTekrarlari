@@ -3,7 +3,7 @@ package arrays;
 public class P04 {
 
     // Soru 4- Verilen bir array’de istenen bir elemanin var olup olmadigini,
-    // ve varsa kac kere kullanildigini yazdiran bir method olusturun.
+    //         ve varsa kac kere kullanildigini yazdiran bir method olusturun.
 
     public static void main(String[] args) {
 

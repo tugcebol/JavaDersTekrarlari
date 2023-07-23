@@ -8,6 +8,7 @@ public class SudokuCozucu {
 
         int[][] sudokuTablosu = {
 
+
                 {0, 6, 2, 1, 0, 4, 0, 0, 8},
                 {8, 0, 9, 0, 0, 0, 7, 0, 0},
                 {0, 0, 0, 7, 6, 0, 0, 1, 0},

@@ -1,5 +1,6 @@
 package arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class P05 {
@@ -9,20 +10,25 @@ public class P05 {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Lütfen oluşturmak istediğiniz Array'in boyutunu yazın: ");
-        int boyut = scanner.nextInt();
-
+        intArrayOlustur();
     }
 
-    public static int[] arrayOlustur (int boyut, int eleman){
+    public static int[] intArrayOlustur() {
 
-        int [] arr = new int[boyut];
+        Scanner scanner = new Scanner(System.in);
 
-        while (arr[boyut] == arr.length){
-            System.out.println("Lütfen eleman ");
+        System.out.print("Lütfen oluşturmak istediğiniz int Array'in boyutunu yazın: ");
+        int boyut = scanner.nextInt();
+
+        int[] arr = new int[boyut];
+
+        for (int i = 0; i <boyut ; i++) {
+            System.out.print("Lütfen Array'e eklemek istediğiniz int elementi girin: ");
+            arr[i] = scanner.nextInt();
+
         }
 
+        System.out.println("Oluşturulan Array: " + Arrays.toString(arr));
         return arr;
     }
 }

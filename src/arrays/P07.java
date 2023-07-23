@@ -1,25 +1,36 @@
 package arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class P07 {
 
-    // Verilen bir array’e istenen bir elemani ekleyip bize donduren bir method yazin,
-    // eski array’e yeni degeri atayin.
+    // Create a method that adds a given element in a given array and
+    // returns it to user,
+    // assign the new value to the old array.
 
-    public static String[] elemanEkle (String [] arr, String eleman){
+    public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        String[] arrFruits = {"Apple", "Pear", "Watermelon", "Peach", "Cherry",};
+        String fruit = "Strawberry";
 
-        for (int i = 0; i <arr.length; i++) {
-            scanner = new Scanner(System.in);
-            System.out.println("Array'e eklenecek elemanı girin: ");
+        arrFruits = addFruitName(arrFruits, fruit);
+        System.out.println(Arrays.toString(arrFruits));
+    }
 
+    public static String[] addFruitName(String[] arr, String str) {
 
+        String[] newArr = new String[arr.length + 1];
+
+        for (int i = 0; i < arr.length; i++) {
+            newArr[i] = arr[i];
         }
 
+        newArr[newArr.length - 1] = str;
 
-        return arr;
+        //arr = new String[arr.length + 1];
+
+        return newArr;
     }
 
 }
