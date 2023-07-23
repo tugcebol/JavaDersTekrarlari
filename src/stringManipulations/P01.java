@@ -6,10 +6,11 @@ public class P01 {
 
     public static void main(String[] args) {
 
-        String str1 = "Canım nasıl isterse";
+        String str1 = "Java Candır";
 
-        System.out.println(str1.toUpperCase()); // CANIM NASIL İSTERSE
-        System.out.println(str1.toLowerCase()); // canım nasıl isterse
+        System.out.println(str1.toUpperCase()); // JAVA CANDIR
+        System.out.println(str1.toLowerCase()); // java candır
+        System.out.println(str1);               // Java Candır
 
         System.out.println(str1.toLowerCase(Locale.forLanguageTag("Tr")));
 
