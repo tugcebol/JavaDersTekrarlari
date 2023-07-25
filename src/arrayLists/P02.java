@@ -26,7 +26,7 @@ public class P02 {
             System.out.println("Please enter a name: \n(Press 'Q' to exit)");
             name = scanner.nextLine();
 
-            if (!name.equalsIgnoreCase("q")){
+            if (!name.equalsIgnoreCase("q")) {
                 list.add(name);
             }
 

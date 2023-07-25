@@ -17,12 +17,12 @@ public class P01 {
 
     }
 
-    public static List<Integer> deleteDuplicates (int []arr){
+    public static List<Integer> deleteDuplicates(int[] arr) {
 
         List<Integer> list = new ArrayList<>();
 
-        for (int i = 0; i <arr.length ; i++) {
-            if (!list.contains(arr[i])){
+        for (int i = 0; i < arr.length; i++) {
+            if (!list.contains(arr[i])) {
                 list.add(arr[i]);
             }
         }
