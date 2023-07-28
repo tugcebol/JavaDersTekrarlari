@@ -10,7 +10,7 @@ public class P03 {
 
     public static void main(String[] args) {
 
-        int arr[] = {4, 5, 6, 7};
+        int[] arr = {4, 5, 6, 7};
 
         arr = elementKaydirma(arr);
 
@@ -32,6 +32,8 @@ public class P03 {
         arr[0] = temp;
 
         return arr;
+
+
 
     }
 }
