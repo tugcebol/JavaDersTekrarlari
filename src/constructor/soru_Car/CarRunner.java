@@ -4,7 +4,7 @@ public class CarRunner {
     // Bir "Car" sınıfı oluşturun ve bu sınıfın bir constructor'ı olsun.
     // Bu constructor, marka ve model bilgilerini alacak şekilde tasarlanmalıdır.
     // Örnek çıktı:
-    // Car nesnesi oluşturuldu: Ford Focus
+    // Car objesi oluşturuldu: Ford Focus
 
     public static void main(String[] args) {
 
