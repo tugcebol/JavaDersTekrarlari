@@ -1,6 +1,6 @@
 package constructor.soru_Book;
 
-public class Q01_Soru {
+public class BookRunner {
 
     // Bir "Book" sınıfı oluşturun ve bu sınıfın bir constructor'ı olsun.
     // Bu constructor, kitap adını, yazarını ve yayın yılını alacak şekilde tasarlanmalıdır
