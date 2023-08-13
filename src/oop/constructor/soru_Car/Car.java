@@ -1,4 +1,4 @@
-package constructor.soru_Car;
+package oop.constructor.soru_Car;
 
 public class Car {
     String marka = "Marka belirtilmemiş";

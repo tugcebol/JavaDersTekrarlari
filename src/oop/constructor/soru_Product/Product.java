@@ -1,4 +1,4 @@
-package constructor.soru_Product;
+package oop.constructor.soru_Product;
 
 public class Product {
     String urunAdi = "";

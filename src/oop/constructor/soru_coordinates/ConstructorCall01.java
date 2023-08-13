@@ -1,4 +1,4 @@
-package constructor.soru_coordinates;
+package oop.constructor.soru_coordinates;
 
 public class ConstructorCall01 {
 

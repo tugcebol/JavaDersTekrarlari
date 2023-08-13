@@ -1,9 +1,9 @@
-package constructor.soru_Book;
+package oop.constructor.soru_Book;
 
 public class BookRunner {
 
-    // Bir "Book" sınıfı oluşturun ve bu sınıfın bir constructor'ı olsun.
-    // Bu constructor, kitap adını, yazarını ve yayın yılını alacak şekilde tasarlanmalıdır
+    // Bir "Book" sınıfı oluşturun ve bu sınıfın bir oop.constructor'ı olsun.
+    // Bu oop.constructor, kitap adını, yazarını ve yayın yılını alacak şekilde tasarlanmalıdır
     // Örnek çıktı:
     // Book nesnesi oluşturuldu: "Java Programlama" - Ahmet Bulutluöz (2021)
 

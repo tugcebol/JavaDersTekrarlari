@@ -1,10 +1,10 @@
-package constructor.soru_Rectangle;
+package oop.constructor.soru_Rectangle;
 
 public class RectangleRunner {
 
-    // Bir "Rectangle" sınıfı oluşturun ve bu sınıfın iki constructor'ı olsun.
-    // İlk constructor, uzun ve genişlik değerlerini alacak şekilde tasarlanmalıdır.
-    // İkinci constructor ise sadece bir boyut değeri alacak şekilde tasarlanmalıdır (kare).
+    // Bir "Rectangle" sınıfı oluşturun ve bu sınıfın iki oop.constructor'ı olsun.
+    // İlk oop.constructor, uzun ve genişlik değerlerini alacak şekilde tasarlanmalıdır.
+    // İkinci oop.constructor ise sadece bir boyut değeri alacak şekilde tasarlanmalıdır (kare).
 
     // Aynı zamanda, bu constructorlarin içinden "display" adında bir metodu çağırarak boyutları ekrana yazdırın.
 

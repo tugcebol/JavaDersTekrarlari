@@ -1,4 +1,4 @@
-package constructor.soru_Rectangle;
+package oop.constructor.soru_Rectangle;
 
 public class Rectangle {
     int uzunluk;

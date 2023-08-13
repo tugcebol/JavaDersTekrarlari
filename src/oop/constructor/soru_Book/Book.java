@@ -1,4 +1,4 @@
-package constructor.soru_Book;
+package oop.constructor.soru_Book;
 
 public class Book {
 

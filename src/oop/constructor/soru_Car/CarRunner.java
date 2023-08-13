@@ -1,8 +1,8 @@
-package constructor.soru_Car;
+package oop.constructor.soru_Car;
 
 public class CarRunner {
-    // Bir "Car" sınıfı oluşturun ve bu sınıfın bir constructor'ı olsun.
-    // Bu constructor, marka ve model bilgilerini alacak şekilde tasarlanmalıdır.
+    // Bir "Car" sınıfı oluşturun ve bu sınıfın bir oop.constructor'ı olsun.
+    // Bu oop.constructor, marka ve model bilgilerini alacak şekilde tasarlanmalıdır.
     // Örnek çıktı:
     // Car objesi oluşturuldu: Ford Focus
 
